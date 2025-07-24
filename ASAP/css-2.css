@@ -1,0 +1,248 @@
+body{
+    background-color: blanchedalmond;
+}
+.design-24{
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 20px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.2;
+  
+    
+}
+
+/* CSS Box Model.. content, paddding, border, and margine */
+.design-25{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 3px;
+    margin: 30px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+/* Background Design.. */
+.design-26{
+
+    background-color: brown;
+    background-size:cover;
+    background-position: right;
+    height: 200px;
+    width: 200px;
+    background-image:url("Ahamad.jpg");
+    background-repeat: no-repeat;
+    text-align: center ;
+        
+  
+    
+}
+
+/* Bordert Styling */
+.design-27{
+        border: 50px;
+        border-style: solid;
+        border-radius: 100px; /* radius that's mean I can looks like circle... */
+        border-color: black;
+        border-width: 80px;
+    
+    
+}
+
+
+/* Display And Position...  */
+
+.design-28{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }.design-29 {
+    display: none;
+  
+}
+
+/* Flexbox( Fexible  box)  that's mean i can design  row and collums way, any boxe's... */
+.design-30-container{
+    
+        /* This is Flexbox Syntex: .container{ display: flex;}  */
+        display: flex;/*  For Start to doing FlexBox Style....*/
+        flex-direction: row;/*  Direction that's mean row and colum....*/
+        justify-content: space-between;/* Justefy-center, that's mean  Box Lay Horizomntaly... */
+        /* align-items: center;  Tat's mean box lay Vertically..*/
+        gap:10px;
+        background-color: paleturquoise;
+        padding: 20px;
+        
+    }.item{
+        background-color: lightcoral;
+        color: whitesmoke; /* text color */
+        padding: 20px;
+        width: 100px;
+        text-align: center;
+    
+}.design-30-container caption{
+    color: tomato;
+    font-size: 15px;
+    text-align: center;
+    caption-side: top;
+    
+}
+
+/* CSS Grid Layout...  Same to work Flexbox, but Grid can be work boath side like Row and Colums..
+display: grid = Start Grit.         
+grid-template-columns = How Much colum.         
+grid-template-rows = How Much Rows.          
+gap = Space.                              
+grid-column -= how many colums need for box.
+
+ */
+.design-31-container{
+        display: grid;  /* To Start to Doing Grid*/
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        background-color: green;
+        width: 480px;
+        height: 490px;
+        gap: 90px;
+    
+    }.item{
+        background-color: red;
+        padding: 20px;
+        width: 60px;
+        height: 70px;   
+
+    }
+
+/* Pseudo-classes & Pseudo-elements....... I can Design Ay HTML value.... */
+
+.drsign-32:hover{    /*  :hover   for design link */
+    color: red;
+}
+.design-33:focus{    /*. :focus    For design Input Area */
+
+    border: 4px solid blue;
+}   
+
+.design-34:first-child {   /*  :first-child   For Design List */
+    color: red;
+
+
+}.design-35:nth-child(2){    /*  :nth-child  For Design Other List words  */
+    color: blueviolet;
+}
+
+.design-36:nth-child(3){       
+    color: rgb(24, 186, 53);
+}
+
+
+.design-37:nth-child(4){    /* Another list Design */
+    color: rgb(188, 112, 20);
+}
+
+
+/* Pseudo-elements, Use Double collons(::) */
+
+.design-38::first-line{   /*  Design Paragraph  for first line */
+    color: brown;
+}
+
+.design-38::first-letter{   /*  Design Paragraph for First Latter.. */
+    font-size: 40px;
+    color: brown;
+}
+
+
+
+
+/* CSS Transitions & Animations.. */
+
+/* Transitions */
+.design-39{   
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        /* transition: backgroung-color 0.5s,transform 0.4s; */
+        transition-property:all;
+        transition-duration: 1s;
+        /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+        transition-delay: 0.5s;
+
+    }.design-39:hover{
+        background-color: blue;
+        transform: scale(3.3); /*   transform: scale That's meean  How much Zoomiong*/
+    
+}
+
+
+
+ /* Animations, Need TO Use @keyframes... */
+.design-40-moving{
+    width: 200px;
+    height: 200px;
+    background: green;
+    animation-name: slide;  /* For Animatiuon Working... */
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+    @keyframes slide {
+    0%{ transform: translateX(0); }     /* Wht is this? and how it's working../ */
+    50%  { transform: translateX(200px); }
+    100% { transform: translateX(30); }
+
+
+
+}
+
+
+
+
+ /* Media Queries & Responsive Design: For  use to support all kind of device.. */
+.design-41{
+
+        width: 500px;
+        height: 200px;
+        background-color: royalblue;
+        color: orange;
+        padding: 30px;
+        font-size: 24px;
+        margin: auto;
+        text-align: center;
+
+    }
+    /* Use For Mobile @media */
+    @media (max-width:600px){
+        .design-41{  /*  Use For Mobile, @media  */
+            background-color: crimson;
+            width: 90%;
+            font-size: 18px;
+        }
+    }
+
+ 
+
+     /* Variables; this means  I can save as a variavle...but i can use another CSS properties... */
+
+     :root{ /* :root that's meann i can save */
+    --primary-color:red;
+    --heading-size:35px;
+    --padding-box:20px;
+    --text-aline: center;
+    --text-color: green;
+
+}
+.design-42{
+    background-color: var(--primary-color); /*  Here I can Use  as a property.. */
+    padding: var(--padding-box);
+    font-size: var(--heading-size); /* Var means i called Variavle, where i saved...   */
+    padding: var(--padding-box);
+    text-align: var(--text-aline);
+    color: var(--text-color);
+}
+

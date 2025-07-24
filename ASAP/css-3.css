@@ -1,0 +1,260 @@
+
+
+
+/* Attribute = Property: Value  */
+body{
+    background-color: green;
+
+
+}.design{
+    color: orange;
+    text-align: center;
+}.design-1{
+    color: aqua;
+}.design-2{
+    color: rgb(157, 36, 143);
+    text-align: center;
+
+}.design-3{
+    color: rgb(24, 23, 23);
+
+}.design-4{
+    color: white;
+}.design-5{
+    color: red;
+    background-color: pink;
+    width:auto;
+    height: 100px;
+    padding: 30px;
+}
+ 
+/* Type for setup digit type... */
+.design-6{
+    color: rgb(240, 100, 191);
+    types: initial;
+    
+
+}.design-7{
+    color: rgb(109, 178, 210);
+    list-style-type: upper-roman; /* list-style-type: For use to do Roman  */
+}.design-8{
+    color: orange;
+    
+}.design-9{
+    color: aqua;
+    list-style-type: square;
+}.design-10{
+    width: max-content;
+    height:auto;
+    padding: 20px;
+    border: solid;
+    margin: 20px;
+    background-color: white;
+    
+
+}.design-11{
+    
+    width: max-content;
+    height: max-content;
+    border: solid red;
+    padding:0px;
+    
+}.design-12{
+    width: max-content;
+    height: auto;
+    border: solid red;
+     
+/* 
+  title="YouTube video"
+  frameborder="10"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+ */
+
+}
+
+
+/* <!-- Hyperlink, thats mean add to link other Pafge,..--> */
+.design13{
+   
+    list-style: square;
+     color: rgb(185, 212, 51);
+     padding: 20px;
+     /* target */
+
+}.design-14{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    
+}.design-15{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}.design-16{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    
+
+
+
+
+
+
+
+
+
+ /* Table.. */
+} .table-1{
+        border-collapse: collapse; /*  For one line row and colums.... */
+        padding:10px; 
+}.table-1 th,td{   
+        border-collapse: collapse;
+        padding: 30px;
+        text-align: center;  
+        width: max-content;
+        height: max-content;
+        border: solid red;
+}.table-1 caption{  /* For Caption deesign*/
+       caption-side: top; 
+       font-weight: bold;
+       font-size: 20px;
+       color: rgb(161, 27, 134);
+       padding: 10px;
+  
+  
+  
+       
+}.table-2{
+    border-collapse: collapse;
+    padding: 10px;
+}.table-2 th,td{
+    width: max-content;
+    height: max-content;
+    border: solid rgb(98, 0, 255);
+    padding: 30px;
+}.table-2 caption{
+       caption-side: top; 
+       font-weight: bold;
+       font-size: 20px;
+       color: rgb(161, 27, 134);
+       padding: 10px;
+}.table-3 {
+       
+        border: 3px solid red;
+        border-collapse: collapse;  /* For one line row and colums.... */
+        padding: 30px;  /* For space td and th.... */
+
+    }.table-3 th,td{
+        width: max-content;
+        height: max-content;
+        border: 3px solid red;
+        padding: 30px;
+    } .table-3 caption{
+
+        caption-side: top; 
+       font-weight: bold;
+       font-size: 20px;
+       color: rgb(161, 27, 134);
+       padding: 10px;
+
+    }.table-4{
+
+        border-collapse: collapse;  /* For one line row and colums.... */
+        padding: 30px;  /* For space td and th.... */
+        background-color: purple;
+
+    }.table-4 td,th{
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        padding: 30px;
+
+    }.table-4 caption{
+
+         caption-side: top; 
+       font-weight: bold;
+       font-size: 20px;
+       color: rgb(238, 236, 101);
+       padding: 10px;
+
+    }.design-17{
+        text-align: center;
+        color: aqua;
+
+    }.design-18{
+        background-color: tomato;
+        width:100%;
+        padding: 30px;
+        color: white;
+        font-size: large;
+    
+        
+    }.design-19{
+
+        background-color: aquamarine;
+        padding: 20px;
+    }
+    .design-20{
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+        background-color: white;
+        
+    }
+    .design-21 details[open] > summary{
+        
+        background-color: rgb(14, 139, 249);
+        padding: 4px;
+    }
+    .design-22{
+        width: 100%;
+        height: max-content;
+        padding: 30px;
+
+        background-color:pink;
+    }
+    .design-23{
+        width: 400px;
+        height: 300px;
+
+    }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+       
+    
+
+
+    
+     
+

@@ -1,0 +1,38 @@
+.pera-style{
+
+    font-size: 3rem;
+    color: tomato;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.my-Style{
+    font-size: 3rem;
+    color: tomato;
+}
+
+
+/* button style-2, click for change image.... */
+
+.class-4{
+    height: 150px;
+    width: 150px;
+    padding: auto;
+
+}
+
+
+
+
+/* Style...Submit Events:.. */
+.class-6{
+    margin-bottom: 2 rem;
+    color: green;
+    padding: 20px;
+    margin: auto;
+
+}
+
+
+
+

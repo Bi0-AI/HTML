@@ -1,0 +1,266 @@
+
+div{
+
+
+    /* Color */
+    background-color: rgb(244, 30, 60);
+    color: aqua;
+
+  /* Weidth and Height */
+    width: 100%;
+    max-width: 400px;
+ /* Need To Aboid Heigth Properties... */
+    
+
+ /* Fonts */
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+
+ /* Border */
+
+   border-width: 6px;
+   border-style: solid;
+   border-color: black;
+
+}
+
+/* CSS Use TO  Class design */
+.Paragraph{
+    width: 100%;
+
+    color: white;
+    background-color: black;
+}.Paragraph2{
+    background-color: aqua;
+    width: 100%;
+    color: blue;
+}.Paragraph3{
+    background-color: orange;
+    width: 100%;
+    color: green;
+
+/* More spacificity... for use id and CSS is #... */
+}#Paragraph4{    
+    width: 100%;
+    background-color: pink;
+    color: blue;
+
+}  
+
+  .model{
+    color: orange;
+    text-align: center;
+    width: 100%;
+    
+}
+/*  Box Model CSS */
+.box{
+    
+    padding:20px;
+    border: 9px;
+    margin: 30px;
+    
+    box-sizing: border-box;/*recommended */
+    width: 200px;
+    background-color: red;
+    border-style: solid;
+    border-width: 9px;
+
+}
+
+
+/* Display Properties */
+
+
+.title3{/* Position:Relative */
+    background-color: red;
+    position: relative;
+    
+
+}
+
+/* Position:Absolute */
+
+.parents{
+    height: 200px;
+    background-color: red;
+    position: relative;
+
+
+}.child{
+    background-color: green;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+}
+
+/* This Is, Fixed Position */
+.parents2{
+    background-color: orange;
+    height: 200px;
+    position: relative;
+
+}.child2{
+    width: 60px;
+    height: 70px;
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 780px;
+}
+
+
+/* This Is, Sticky Position */
+
+.parants3{
+    background-color: black;
+    height: 200px;
+    position: relative;
+}.child3{
+    height: 70px;
+    width: 70px;
+    position: sticky;
+    background-color: red;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;
+}
+
+
+/* Media and Quories: That's mean Allow to make our website looks good on all screen size, like Ipad,Laptop,Monitor, etc........*/
+
+
+.title5{
+    font-size: 52px;
+}.paragraph6{
+    font-size: 24px;
+}
+
+
+/* For Desktops.... */
+@media (max-width:1280px){
+    .title5{
+        font-size: 46px;
+    }
+.paragraph6{
+    font-size: 42px;
+}
+}
+
+
+/* Laptops.... */
+@media (max-width:1024px){
+    .title5{
+        font-size: 42px;
+    }
+.paragraph6{
+    font-size: 35px;
+}
+}
+
+
+/* For Tablets...*/
+@media (max-width:768px){
+    .title5{
+        font-size: 40px;
+    }
+.paragraph6{
+    font-size: 30px;
+}
+}
+
+
+/* For Large SmartPhone */
+@media (max-width:640px){
+    .title5{
+        font-size: 36px;
+    }
+.paragraph6{
+    font-size: 26px;
+}
+}
+
+/* For Small SmartPhone */
+@media (max-width:480px){
+    .title5{
+        font-size: 32px;
+    }
+
+.paragraph6{
+    font-size: 30px;
+}
+}
+
+
+
+
+
+
+/* Pseudo Classes and Pseudo Element: For use to design separetley... */
+
+button{     
+transition: 300ms; /* For use Slowely Change.... */
+ background-color: aquamarine;
+ 
+}
+
+button:hover {  /* For use Change color... */
+opacity:30% ; /* opacity: that's mean  Desappear effect*/
+background-color: aqua;
+padding: 4px;
+}
+
+/* Pseudo Elements. Use Doubol Collons :: */
+
+   .item6::before { /*  also we can use  After */
+  content: "My name is ";
+  display: inline;
+  color: orangered;
+}
+
+
+
+
+/* Animation.. */
+
+
+.Animation {
+  font-size: 30px;
+  /* animation property: name of the animation,  how long time  to run animattion, alternative-revers(smoothly reverse). */
+  animation: pointdown 1000ms infinite alternate-reverse;
+}
+
+/* Use @keyframes For Creat Animation */
+@keyframes pointdown { /* pointdown: animation style */
+  0% { /* Animation Start 0% */
+    transform: translateY(0); /* Transform start to 0, and Y-axis */
+  }
+  100% { /* Animation Ending when it's 100% */
+    transform: translateY(16px); /* Transform Stop When it's 16px, and Y-axis */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

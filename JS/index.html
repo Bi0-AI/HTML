@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  
+</head>
+<body>
+
+  <!-- DOM: Document Object Model -->
+  <!-- 
+    DOM (Document Object Model) is a way for JavaScript to see and change HTML content.
+    It turns the whole HTML page into a tree of objects, so JS can read, edit, or delete elements like <p>, <div>, etc.
+  -->
+
+  <!-- Select/define HTML elements... -->
+  <h1 id="id-1">This is a Heading-1.</h1>
+  <h1>I am Paragraph.</h1>
+  <h1 class="class">I am Classs.</h1>
+  <h1 id="id-2">Hello world!!</h1>
+  <h1 class="class-2">Hello world!!</h1>
+  <h3>Hello China!!</h3>
+  <br>
+
+  <!-- For Advanced QuerySelector -->
+  <a href="#">Home</a>
+  <ul>
+    <li><a href="#">Tutorial</a></li>
+    <li>Bangladesh</li>
+  </ul>
+
+  <div class="class-3">
+    <a href="#">Contact</a>
+  </div>
+
+  <br><br>
+
+  <!-- querySelectorAll -->
+  <h2>This is Heading number one.</h2>
+  <h2>This is Heading number two.</h2>
+  <br><br>
+
+  <!-- Event Handler & onclick event -->
+  <button onclick="function1()">Click me-1</button> <!-- onclick method: for use Button works.... -->
+  <button onclick="function2()">Click me-2</button> <!-- onclick method: for use Button works.... -->
+  <br><br>
+
+  <!-- Another style-1... -->
+  <button onclick="function3()">button one</button>
+  <button onclick="function4()">button two</button>
+  <p id="id-3"></p>
+  <br><br><br>
+
+
+
+  <!-- Another button style-2... click for change image -->
+  <button onclick="function5()">button-1</button>
+  <button onclick="function6()">button-2</button>
+  <img id="id-5" src="" alt="">
+  <br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+  <!-- CRUD html element: C=Create, R=Read, U=Update, D=Delete... -->
+  <a id="id-6" href="">Visit google..</a>
+
+ <br><br>
+
+ <!-- C=Create element.. -->
+ <div id="id-7" style="background-color: tomato;">
+    <h1>Hello!</h1>
+   <h1>GoodBye!</h1>
+ </div>
+
+
+<br><br><br>
+
+  <!-- D=Deleteelement.. -->
+
+  <div id="id-8"  style ="background-color: green">
+    <h1 id="id-9">Element-1</h1>
+    <h1>  here is had two element. One Element Deleted...</h1>
+  </div>
+
+ <br><br><br>
+
+ <!-- Another, creat element, but I  want to add any place's like top side...  -->
+
+ <div id="id-10" style="background-color: aqua;">
+
+  <h1 id="id-11">i am heading number One</h1>
+  <h1>i am heading number two </h1>
+
+ </div>
+ <br><br>
+
+
+
+
+
+
+
+
+
+
+ <!-- Image  Slider project.......-->
+
+  <!-- When this button is clicked, the prev() function runs -->
+  <button onclick="prev()">Previous</button>
+
+  <!-- This image will be changed using JavaScript -->
+  <img src="images/3.jpeg" alt="" width="200px" height="200px">
+
+  <!-- When this button is clicked, the next() function runs -->
+  <button onclick="next()">Next</button>
+
+  <br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Change CSS Dynamically by using JS.... -->
+  <p id="peraId">This is a paragraph.</p>
+
+  <button onclick="addasatyle()">Add style</button>
+  <button onclick="removeStyle()">Remove style</button>
+
+  <br><br><br><br>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  <!-- Event listener... -->
+  <button id="design-46">Click me....</button>
+  <br><br><br>
+
+
+
+
+
+
+ <!-- another.... -->
+  <h2 id="design-47">I miss  Home!!</h2>
+  <br><br><br><br><br><br>
+
+
+
+
+
+
+
+  <!-- Event listener with Multiple event.. -->
+  <h1 id="hed-1">You have not clicked any button</h1>
+  <button class="myButton">button 1</button>
+  <button class="myButton">button 2</button>
+  <button class="myButton">button 3</button>
+<br><br><br>
+
+
+
+
+<!-- 
+
+DOM Events
+1. Event Object
+Event types: change, submit, load, unload, open, play, canplay, pause, playing, progress, ended, resize, scroll, toggle etc.
+
+Properties: type, target, preventDefault()
+
+2. MouseEvent Object
+KeyboardEvent Object
+
+FocusEvent Object
+
+ClipboardEvent Object
+
+DragEvent Object 
+-->
+
+
+
+<!-- oneChange Event: 
+1.  when user changes something and leaves the field, onchange runs
+2.  works for: text,number, password, email, color, radio, chekbox,search,date, week, month, url, input, select, textarea, etc.
+3. it helps to catch new value after user changes something
+-->
+
+
+<label for="" id=""> Name: </label>
+<input type="text" name="name" id="name-input" class="name-input" >
+
+<br><br><br>
+
+
+<!-- 
+<div>
+  <h2>Programing Languages..</h2>
+
+  <label for="program">
+    <input type="checkbox" name="program" value="c"> C
+  </label>
+
+  <label for="program">
+    <input type="checkbox" name="program" value="java"> Java
+  </label>
+</div> -->
+
+<label> C: 
+  <input type="checkbox" name="program" value="C">  <!-- checkbox with value C -->
+</label>
+
+<br> 
+
+<label> Java: 
+  <input type="checkbox" name="program" value="Java">  <!-- checkbox with value Java -->
+</label>
+
+<br> 
+
+<label> Python: 
+  <input type="checkbox" name="program" value="Python">  <!-- checkbox with value Python -->
+</label>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- select......... -->
+
+<label for="department">Department: </label>
+<select name="department" id="department">
+
+  <option value="cse">CSE</option>
+  <option value="eee">EEE</option>
+  <option value="llb">LLB</option>
+
+</select>
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Submit Events: submit event means: when user clicks submit button in a form..... -->
+
+
+<form action="" id="form-1">
+    <div class="class-6">
+        <label for="name">Name: 
+          <input type="text" id="name" name="name" required autofocus>
+        </label>
+    </div>
+   <br>
+
+    <div class="class-6">
+       <label for="email">Email: 
+        <input type="email"  id="email" name="email"required size="30">
+      </label>
+    </div>
+   <br>
+
+ 
+    <div class="class-6" >
+        <label for="Password">Password: 
+        <input type="text" id="password" name="password" required minlength="4" maxlength="8">
+      </label>
+    </div>
+
+
+
+    <div>
+      <label for="radio"> Gender:
+        <input type="radio" id="radio-1" name="radio" value="male"> Male
+        <input type="radio" id="radio-2" name="radio" value="female"> Female
+        <input type="radio" id="radio-3" name="radio" value="hizra">Hizra
+      </label>
+    </div>
+    <br><br>
+
+    
+    <div>
+        <input type="submit" value="Signup">
+    </div>
+    <br><br>
+</form>
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Form Validation......... -->
+
+<h4>Form Validation</h4>
+<p id="error"></p>
+<form onsubmit="return validaTionform()">
+<div>
+  <label for="name">Name: 
+  <input type="text" id="name1" placeholder="Write your name">
+   </label>
+</div>
+<br>
+
+
+<div>
+  <label for="email"> Email: 
+  <input type="email" id="email1" placeholder="Write your email">
+  </label>
+
+</div>
+<br>
+
+<div>
+  <label for="password">Password: 
+  <input type="password" id="password1" placeholder="write your password">
+</label>
+</div>
+<br>
+
+<div>
+  <label for="gander"> Select your Gander: 
+  <input type="radio" id="radio10" > Male
+  <input type="radio" id="radio20" > Female
+  <input type="radio" id="radio30" > Transistor
+  <input type="radio" id="radio4" > Hizra
+ </label>
+</div>
+<br>
+
+
+<div>
+
+  <label for="chekbox">Where you live: 
+
+  <input type="checkbox" id="chekbox1" > City
+  <input type="checkbox" id="chekbox2"> Village
+ </label>
+</div>
+<br>
+
+<div>
+  <label for="Submit">
+    <input type="submit">
+  </label>
+</div>
+<br>
+
+</form>
+
+<br><br><br><br>
+
+
+
+
+
+
+
+<h4>Webstoage API...</h4>
+<!-- 
+ Webstoage API.........
+ Web Storage API allow to store data, delete data, read data,  in browser  etc.....
+ localStorage: store data permanently in the browser until manually delete....
+ sessionStorage: store data only for the current browser,  clears all when the tab is closed.
+-->
+
+
+
+
+<!-- localStorage -->
+
+
+
+
+
+ 
+
+
+
+
+</body>
+</html>

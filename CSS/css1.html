@@ -1,0 +1,63 @@
+<!-- CCS(Cascading Style Sheets)......
+ এটি হলো এক ধরনের স্টাইলিং ভাষা, যা HTML দিয়ে তৈরি ওয়েব পেজকে সুন্দর ও আকর্ষণীয় করে তোলে।
+0.টেক্সটের রং, আকার, ফন্ট ঠিক করতে পারো ✅
+1.ব্যাকগ্রাউন্ডে রঙ বা ছবি বসাতে পারো ✅
+2.বক্স, মার্জিন, প্যাডিং, বর্ডার দিতে পারো ✅
+3.এলিমেন্ট কোথায় থাকবে (ডানে, বামে) তা ঠিক করতে পারো ✅
+4.মোবাইল বা কম্পিউটারে আলাদা করে ডিজাইন দিতে পারো ✅
+CSS Syntax.....
+selector {
+  property: value;
+}
+EXAMPLE...
+p {
+  color: red;
+  font-size: 18px;
+}
+CSS যুক্ত করার ৩টি উপায়....
+1. Inline CSS	সরাসরি HTML ট্যাগে	<p style="color:red;">Hello</p>
+2. Internal CSS	HTML ফাইলে <style> ট্যাগে	<style>p { color: red; }</style>
+3. External CSS	আলাদা .css ফাইলে	style.css → <link rel="stylesheet" href="style.css">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Inline CSS -->
+<h1 style="color: red;">Hello world!</h1>
+
+</body>
+</html>
+
+<!-- Internal CSS 
+ selector {
+  property: value;
+}
+ HEAD A style taG diye BODIR tag select kore, jar jonno kaj korbe,ba jake edit korbe....
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{     
+            color:green;  
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>I love China</h1>
+
+
+  </body>
+  </html>
+  
+
